@@ -1,7 +1,8 @@
--- creating db and table
+-- First Step:
 create database shirts_db;
+-- Second Step
 create table shirts (shirt_id int, article varchar(255), color varchar(255), shirt_size varchar(10), last_worn int);
-
+-- Third Step
 insert into shirts (shirt_id, article, color, shirt_size, last_worn)
 values (1, 't-shirt', 'white', 'S', 10),
 (2, 't-shirt', 'green', 'S', 200),
